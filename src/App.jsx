@@ -1,5 +1,6 @@
 import HeroComp from "./components/HeroComp";
 import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
 
 const App = () => {
 
@@ -7,6 +8,7 @@ const App = () => {
     <main>
       <Navbar />
       <HeroComp />
+      <Footer />
     </main>
   )
 }
