@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Caminos from "./components/Caminos";
 
 import Video from "./assets/placeholder.mp4";
 
@@ -17,7 +18,7 @@ const App = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
         </div>
       </div>
-      <Hero/>
+      <Caminos/>
     </main>
   )
 }
