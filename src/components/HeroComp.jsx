@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import heroVid1 from "../assets/TMCSLD.mp4";
 import heroVid2 from "../assets/bridgeDemo.mp4";
 import heroVid3 from "../assets/docDemo.mp4";
