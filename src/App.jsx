@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
-import Video from "./assets/placeholder.mp4";
+import Video from "./assets/TMCSLD.mp4";
 
 const App = () => {
 
