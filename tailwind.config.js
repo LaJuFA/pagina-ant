@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        helvetica: ['Helvetica', 'sans-serif'],
+      },
       colors: {
         blue: "#2997FF",
         yellow: "#DBD632",
