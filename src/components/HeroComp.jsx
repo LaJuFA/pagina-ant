@@ -1,7 +1,7 @@
 import {useState} from 'react';
-import heroVid1 from "../assets/TMCSLD.mp4";
-import heroVid2 from "../assets/bridgeDemo.mp4";
-import heroVid3 from "../assets/docDemo.mp4";
+import heroVid1 from "../assets/TMCSLDaudFix.mp4";
+import heroVid2 from "../assets/LoveYouBridgeAudFix.mp4";
+import heroVid3 from "../assets/documentalAudFix.mp4";
 
 
 const HeroComp = () => {

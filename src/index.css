@@ -45,22 +45,22 @@ canvas {
 
 @keyframes glitch {
   0% {
-    text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #00ffff;
+    text-shadow: 2px 2px 0 #F51010, -2px -2px 0 #2C1010;
   }
   25% {
-    text-shadow: -2px 2px 0 #ff00ff, 2px -2px 0 #00ffff;
+    text-shadow: -2px 2px 0 #F51010, 2px -2px 0 #2C1010;
     transform: translate(1px, -1px);
   }
   50% {
-    text-shadow: 2px -2px 0 #ff00ff, -2px 2px 0 #00ffff;
+    text-shadow: 2px -2px 0 #F51010, -2px 2px 0 #2C1010;
     transform: translate(-1px, 1px);
   }
   75% {
-    text-shadow: -2px -2px 0 #ff00ff, 2px 2px 0 #00ffff;
+    text-shadow: -2px -2px 0 #F51010, 2px 2px 0 #2C1010;
     transform: translate(1px, -1px);
   }
   100% {
-    text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #00ffff;
+    text-shadow: 2px 2px 0 #F51010, -2px -2px 0 #2C1010;
     transform: translate(0, 0);
   }
 }
@@ -78,7 +78,7 @@ canvas {
   position: relative;
   color: #DBD632;
   font-size: 2rem;
-  animation: glitch 0.5s infinite, glitch-skew 0.3s infinite;
+  animation: glitch 1s infinite, glitch-skew 1s infinite;
 }
 
 .glitch::before,
@@ -95,15 +95,15 @@ canvas {
 }
 
 .glitch::before {
-  color: #ff00ff;
+  color: #F51010;
   z-index: -1;
-  animation: glitch 0.5s infinite;
+  animation: glitch 1s infinite;
 }
 
 .glitch::after {
-  color: #00ffff;
+  color: #2C1010;
   z-index: -1;
-  animation: glitch 0.5s infinite reverse;
+  animation: glitch 1s infinite reverse;
 }
 
 @layer utilities {
