@@ -7,7 +7,7 @@ const Bridge = () => {
             <div id="bento-grid" className="md:flex gap-10">
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
                     <div>
-                        <h4 className="text-md text-gray-100">
+                        <h4 className="text-md text-gray">
                             [ 0 2 ]
                         </h4>
                         <h1 className="text-4xl text-zinc">
@@ -15,7 +15,7 @@ const Bridge = () => {
                         </h1>
                     </div>
                     <Link to={"/ReproductorLove"}>
-                        <p className="text-lg text-gray-200 hover:text-zinc">
+                        <p className="text-lg text-gray hover:text-zinc">
                             Mirar Teaser
                         </p>
                     </Link>
