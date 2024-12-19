@@ -10,7 +10,7 @@ const Caminos = () => {
                 </div>
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
                     <div>
-                        <h4 className="text-md text-gray-100">
+                        <h4 className="text-md text-gray">
                             [ 0 1 ]
                         </h4>
                         <h1 className="text-4xl text-zinc">
@@ -18,7 +18,7 @@ const Caminos = () => {
                         </h1>
                     </div>
                     <Link to={"/ReproductorCaminos"}>
-                        <p className="text-lg text-gray-200 hover:text-zinc">
+                        <p className="text-lg text-gray hover:text-zinc">
                             Mirar Teaser
                         </p>
                     </Link>
