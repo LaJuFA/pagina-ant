@@ -6,6 +6,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import ReproductorCaminos from './components/ReproductorCaminos.jsx'
 import ReproductorLove from './components/ReproductorLove.jsx'
 import ReproductorDocumental from './components/ReproductorDocumental.jsx'
+import Nosotros from './components/Nosotros.jsx'
 
 const Layout = () => {
   return (
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:'/ReproductorDocumental',
         element: <ReproductorDocumental/>
+      },
+      {
+        path:'/Nosotros',
+        element: <Nosotros/>
       },
     ],
   },

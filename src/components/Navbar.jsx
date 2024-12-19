@@ -17,11 +17,13 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center gap-4">
+                        <Link to="/Nosotros">
+                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                                Nosotros
+                            </p>
+                        </Link>
                         <a href="#about" className="text-white hover:text-gray font-helvetica text-sm hover:underline">
-                        Nosotros
-                        </a>
-                        <a href="#contact" className="text-white hover:text-gray font-helvetica text-sm hover:underline">
-                        Contacto
+                            Contacto
                         </a>
                         <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
                         <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>

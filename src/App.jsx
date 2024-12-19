@@ -6,7 +6,8 @@ import YTC1 from "./components/YTC1";
 import ReproductorCaminos from "./components/ReproductorCaminos";
 import ReproductorLove from "./components/ReproductorLove";
 import ReproductorDocumental from "./components/ReproductorDocumental";
-import Footer from "./components/footer";
+import Nosotros from "./components/Nosotros";
+import Footer from "./components/Footer";
 
 const App = () => {
 
