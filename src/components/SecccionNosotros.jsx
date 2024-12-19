@@ -1,6 +1,6 @@
 import imgUno from "../assets/caminos-uno.png";
-import imgDos from "../assets/bridge-uno.png";
-import imgTres from "../assets/YTC1-uno.png";
+import imgDos from "../assets/bridge-uno.jpeg";
+import imgTres from "../assets/YTC1-uno.jpeg";
 
 const SecccionNosotros = () => {
   return (

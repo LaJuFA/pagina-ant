@@ -1,4 +1,4 @@
-import imgUno from "../assets/YTC1-uno.png";
+import imgUno from "../assets/YTC1-uno.jpeg";
 import { Link } from "react-router-dom";
 
 const YTC1 = () => {

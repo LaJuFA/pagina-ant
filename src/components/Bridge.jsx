@@ -1,4 +1,4 @@
-import imgUno from "../assets/bridge-uno.png";
+import imgUno from "../assets/bridge-uno.jpeg";
 import { Link } from "react-router-dom";
 
 const Bridge = () => {
