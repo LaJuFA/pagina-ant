@@ -7,7 +7,7 @@ const SecccionNosotros = () => {
     <section className="w-screen h-screen overflow-hidden bg-white common-padding">
       <div className="w-full h-full flex flex-col justify-evenly text-center">
         <div>
-            <h1 className="text-zinc font-helvetica text-4xl font-bold">
+            <h1 className="text-zinc font-helvetica text-5xl font-bold py-4">
                 Donde el Arte y la Rebeldía Convergen
             </h1>
             <p className="text-gray-500 text-lg font-helvetica">
