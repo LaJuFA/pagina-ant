@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 const Navbar = () => {
   return (
@@ -13,13 +16,15 @@ const Navbar = () => {
                             </p>
                         </Link>
                     </div>
-                    <div className="hidden md:flex space-x-4">
+                    <div className="hidden md:flex items-center gap-4">
                         <a href="#about" className="text-white hover:text-gray font-helvetica text-sm hover:underline">
                         Nosotros
                         </a>
                         <a href="#contact" className="text-white hover:text-gray font-helvetica text-sm hover:underline">
                         Contacto
                         </a>
+                        <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
+                        <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
                     </div>
                 </div>
             </div>

@@ -18,8 +18,8 @@ const Caminos = () => {
                         </h1>
                     </div>
                     <Link to={"/ReproductorCaminos"}>
-                        <p className="text-lg text-gray-200">
-                            Mas informacion
+                        <p className="text-lg text-gray-200 hover:text-zinc">
+                            Mirar Teaser
                         </p>
                     </Link>
                 </div>

@@ -1,4 +1,5 @@
 import imgUno from "../assets/bridge-uno.png";
+import { Link } from "react-router-dom";
 
 const Bridge = () => {
   return (
@@ -13,9 +14,11 @@ const Bridge = () => {
                             Love bridge
                         </h1>
                     </div>
-                    <h4 className="text-lg text-gray-200">
-                        Mas informacion
-                    </h4>
+                    <Link to={"/ReproductorLove"}>
+                        <p className="text-lg text-gray-200 hover:text-zinc">
+                            Mirar Teaser
+                        </p>
+                    </Link>
                 </div>
                 <div className="w-3/5">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />

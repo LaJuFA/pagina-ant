@@ -4,6 +4,8 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import ReproductorCaminos from './components/ReproductorCaminos.jsx'
+import ReproductorLove from './components/ReproductorLove.jsx'
+import ReproductorDocumental from './components/ReproductorDocumental.jsx'
 
 const Layout = () => {
   return (
@@ -23,7 +25,15 @@ const router = createBrowserRouter([
       {
         path:'/ReproductorCaminos',
         element: <ReproductorCaminos/>
-        },
+      },
+      {
+        path:'/ReproductorLove',
+        element: <ReproductorLove/>
+      },
+      {
+        path:'/ReproductorDocumental',
+        element: <ReproductorDocumental/>
+      },
     ],
   },
 ]);

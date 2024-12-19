@@ -1,4 +1,5 @@
 import imgUno from "../assets/YTC1-uno.png";
+import { Link } from "react-router-dom";
 
 const YTC1 = () => {
   return (
@@ -16,9 +17,11 @@ const YTC1 = () => {
                             Yellow Tapes -01-
                         </h1>
                     </div>
-                    <h4 className="text-lg text-gray-200">
-                        Mas informacion
-                    </h4>
+                    <Link to={"/ReproductorDocumental"}>
+                        <p className="text-lg text-gray-200 hover:text-zinc">
+                            Mirar Teaser
+                        </p>
+                    </Link>
                 </div>
             </div>
         </section>
