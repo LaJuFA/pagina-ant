@@ -11,8 +11,11 @@ const Bridge = () => {
                             [ 0 2 ]
                         </h4>
                         <h1 className="text-4xl text-zinc">
-                            Love bridge
+                            The I Love you Bridge
                         </h1>
+                        <h4 className="text-lg text-gray-600">
+                            Una pareja de adictos a la heroína se culpan el uno al otro por el suicidio de su amigo.
+                        </h4>
                     </div>
                     <Link to={"/ReproductorLove"}>
                         <p className="text-lg text-gray hover:text-zinc">
