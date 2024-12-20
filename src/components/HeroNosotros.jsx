@@ -1,5 +1,4 @@
 import policeImg from "../assets/police.jpg"
-import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -20,7 +19,7 @@ const HeroNosotros = () => {
       {/* Contenido superpuesto */}
       <div className="relative z-10 flex h-full w-full flex-col items-center justify-center bg-black bg-opacity-80 px-10">
         <h1 className="font-helvetica text-white md:text-6xl">
-          "El arte no convencional merece una pantalla."
+          El arte no convencional merece una pantalla.
         </h1>
       </div>
     </div>
