@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
+import iconImg from "../assets/image.svg"
 
 const Navbar = () => {
   return (
@@ -11,9 +12,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <Link to="/">
-                            <p className="text-2xl font-helvetica text-yellow text-lg underline italic">
-                                YTS
-                            </p>
+                            <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center gap-4">
