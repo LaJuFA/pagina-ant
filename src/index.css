@@ -78,7 +78,7 @@ canvas {
   position: relative;
   color: #DBD632;
   font-size: 2rem;
-  animation: glitch 1s infinite, glitch-skew 1s infinite;
+  animation: glitch 4s infinite, glitch-skew 1s infinite;
 }
 
 .glitch::before,

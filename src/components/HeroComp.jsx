@@ -23,18 +23,18 @@ const HeroComp = () => {
 
             {/* Contenido superpuesto */}
             <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-10">
-                <h1 className="text-4xl font-bold text-white md:text-6xl self-end glitch">
+                <h1 className="text-4xl font-bold text-yellow md:text-6xl self-end">
                     Yellow Tapes Studio
                 </h1>
                 <div className="mt-8 flex flex-col items-start space-y-4 font-helvetica">
                     <button onMouseEnter={() => handleHover("heroVid1")} className="text-lg font-medium text-white transition hover:text-gray">
-                        Todos mis caminos son la destrucción
+                        Todos mis caminos son la destrucción.
                     </button>
                     <button onMouseEnter={() => handleHover("heroVid2")} className="text-lg font-medium text-white transition hover:text-gray">
-                        Love bridge
+                        The I love you bridge.
                     </button>
                     <button onMouseEnter={() => handleHover("heroVid3")} className="text-lg font-medium text-white transition hover:text-gray">
-                        Documental
+                        Graffiti Tapes - Lima.
                     </button>
                 </div>
             </div>
