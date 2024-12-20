@@ -2,30 +2,14 @@ import Video from "../assets/LoveYouBridgeAudFix.mp4";
 
 const HeroLove = () => {
     return (
-        <section className="w-screen h-screen overflow-hidden flex justify-center items-center gap-8">
+        <section className="w-screen h-screen overflow-hidden flex justify-center items-center gap-8 bg-zinc">
           <div>
             <div className="font-helvetica">
               <h4 className="text-lg font-bold">
-                Nombre de la persona
+                The I Love you Bridge
               </h4>
               <h4 className="text-md">
-                [Título]
-              </h4>
-            </div>
-            <div className="font-helvetica">
-              <h4 className="text-lg font-bold">
-                Nombre de la persona
-              </h4>
-              <h4 className="text-md">
-                [Título]
-              </h4>
-            </div>
-            <div className="font-helvetica">
-              <h4 className="text-lg font-bold">
-                Nombre de la persona
-              </h4>
-              <h4 className="text-md">
-                [Título]
+                Año de producción: 2021
               </h4>
             </div>
           </div>

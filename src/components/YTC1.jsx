@@ -1,4 +1,4 @@
-import imgUno from "../assets/YTC1-uno.png";
+import imgUno from "../assets/YTC1-uno.jpeg";
 import { Link } from "react-router-dom";
 
 const YTC1 = () => {
@@ -14,8 +14,11 @@ const YTC1 = () => {
                             [ 0 3 ]
                         </h4>
                         <h1 className="text-4xl text-zinc">
-                            Yellow Tapes -01-
+                            Graffiti Tapes - Lima
                         </h1>
+                        <h4 className="text-lg text-gray-600">
+                            Una serie documental que muestra la escena graffiti en Lima a partir de grafiteros influyentes de la escena
+                        </h4>
                     </div>
                     <Link to={"/ReproductorDocumental"}>
                         <p className="text-lg text-gray hover:text-zinc">

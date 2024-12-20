@@ -2,7 +2,7 @@ import Video from "../assets/TMCSLDaudFix.mp4";
 
 const HeroCaminos = () => {
   return (
-    <section className="w-screen h-screen overflow-hidden flex justify-center items-center gap-8">
+    <section className="w-screen h-screen overflow-hidden flex justify-center items-center gap-8 bg-zinc">
       <div className="w-3/5">
         <video controls>
           <source src={Video} type="video/mp4"/>
@@ -11,26 +11,10 @@ const HeroCaminos = () => {
       <div>
         <div className="font-helvetica">
           <h4 className="text-lg font-bold">
-            Nombre de la persona
+            Todos mis caminos son la destrucción
           </h4>
           <h4 className="text-md">
-            [Título]
-          </h4>
-        </div>
-        <div className="font-helvetica">
-          <h4 className="text-lg font-bold">
-            Nombre de la persona
-          </h4>
-          <h4 className="text-md">
-            [Título]
-          </h4>
-        </div>
-        <div className="font-helvetica">
-          <h4 className="text-lg font-bold">
-            Nombre de la persona
-          </h4>
-          <h4 className="text-md">
-            [Título]
+            Año de producción: 2024
           </h4>
         </div>
       </div>
