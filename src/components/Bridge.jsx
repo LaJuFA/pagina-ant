@@ -10,7 +10,7 @@ const Bridge = () => {
     useGSAP(() => {
         gsap.fromTo('.nigge', {
             opacity: 0,
-            y: 128,
+            y: 64,
         }, {
             opacity: 1,
             y: 0,
