@@ -12,24 +12,22 @@ const router = createBrowserRouter([
   {
     path: '/pagina-ant/',
     element: <App/>,
-    children: [
-      {
+  },
+  {
         path:'/pagina-ant/ReproductorCaminos',
         element: <ReproductorCaminos/>
-      },
-      {
+  },
+  {
         path:'/pagina-ant/ReproductorLove',
         element: <ReproductorLove/>
-      },
-      {
+  },
+  {
         path:'/pagina-ant/ReproductorDocumental',
         element: <ReproductorDocumental/>
-      },
-      {
+  },
+  {
         path:'/pagina-ant/Nosotros',
         element: <Nosotros/>
-      },
-    ],
   },
 ]);
 
