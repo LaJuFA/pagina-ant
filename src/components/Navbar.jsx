@@ -4,6 +4,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 import iconImg from "../assets/image.svg"
+import { useEffect, useState } from "react"
 
 const Navbar = () => {
     const copyToClipboard = () => {
@@ -11,9 +12,21 @@ const Navbar = () => {
         alert("Email copiado")
     }
 
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
+
   return (
     <header className="w-full px-4 sm:px-8 flex justify-between items-center">
-        <nav className="fixed top-0 left-0 w-full z-20 bg-transparent">
+        <nav className={`fixed top-0 left-0 w-full z-20 ${isScrolled ? 'bg-zinc' : 'bg-transparent'} transition duration-300`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
