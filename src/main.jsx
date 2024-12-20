@@ -2,41 +2,31 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ReproductorCaminos from './components/ReproductorCaminos.jsx'
 import ReproductorLove from './components/ReproductorLove.jsx'
 import ReproductorDocumental from './components/ReproductorDocumental.jsx'
 import Nosotros from './components/Nosotros.jsx'
 
-const Layout = () => {
-  return (
-    <Outlet/>
-  )
-}
-
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Layout/>,
+    path: '/pagina-ant/',
+    element: <App/>,
     children: [
       {
-      path:'/',
-      element: <App/>
-      },
-      {
-        path:'/ReproductorCaminos',
+        path:'/pagina-ant/ReproductorCaminos',
         element: <ReproductorCaminos/>
       },
       {
-        path:'/ReproductorLove',
+        path:'/pagina-ant/ReproductorLove',
         element: <ReproductorLove/>
       },
       {
-        path:'/ReproductorDocumental',
+        path:'/pagina-ant/ReproductorDocumental',
         element: <ReproductorDocumental/>
       },
       {
-        path:'/Nosotros',
+        path:'/pagina-ant/Nosotros',
         element: <Nosotros/>
       },
     ],
