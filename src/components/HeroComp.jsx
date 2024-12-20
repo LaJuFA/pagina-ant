@@ -24,7 +24,7 @@ const HeroComp = () => {
             {/* Contenido superpuesto */}
             <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-10">
                 <h1 className="text-4xl font-bold text-yellow md:text-6xl self-end">
-                    Yellow Tapes Studio
+                    Yellow Tapes Studios
                 </h1>
                 <div className="mt-8 flex flex-col items-start space-y-4 font-helvetica">
                     <button onMouseEnter={() => handleHover("heroVid1")} className="text-lg font-medium text-white transition hover:text-gray">

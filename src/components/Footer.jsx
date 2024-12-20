@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
   return (
@@ -29,34 +32,10 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold text-gray-100">Síguenos</h2>
           <div className="mt-4 flex space-x-4">
-            <a
-              href="#"
-              className="hover:text-yellow-500"
-              aria-label="Facebook"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              href="#"
-              className="hover:text-yellow-500"
-              aria-label="Instagram"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              href="#"
-              className="hover:text-yellow-500"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              href="#"
-              className="hover:text-yellow-500"
-              aria-label="YouTube"
-            >
-              <i className="fab fa-youtube"></i>
-            </a>
+            <FontAwesomeIcon icon= { faFacebook } className='hover:text-gray'/>
+            <FontAwesomeIcon icon= { faInstagram } className="hover:text-gray"/>
+            <FontAwesomeIcon icon= { faTwitter } className='hover:text-gray'/>
+            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
           </div>
         </div>
       </div>
