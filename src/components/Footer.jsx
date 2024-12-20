@@ -19,7 +19,7 @@ const Footer = () => {
           <h2 className="text-lg font-semibold text-gray-100">Enlaces rápidos</h2>
           <ul className="mt-4 space-y-2">
             <li>
-              <Link to="/Nosotros">
+              <Link to="/pagina-ant/Nosotros">
                 <p className="hover:text-yellow-500">Nosotros</p>
               </Link>
             </li>

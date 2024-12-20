@@ -37,7 +37,7 @@ const Bridge = () => {
                             Una pareja de adictos a la heroína se culpan el uno al otro por el suicidio de su amigo.
                         </h4>
                     </div>
-                    <Link className="nigge" to={"/ReproductorLove"}>
+                    <Link className="nigge" to="/pagina-ant/ReproductorLove">
                         <p className="text-lg text-gray hover:text-zinc">
                             Mirar Teaser
                         </p>

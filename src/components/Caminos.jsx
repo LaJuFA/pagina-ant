@@ -43,7 +43,7 @@ const Caminos = () => {
                             Juntos recorren la ciudad, dejando atrás sus problemas momentáneamente, mientras que comienzan a cuestionar sus decisiones y reflexionar sobre sus vidas.
                         </h4>
                     </div>
-                    <Link className="nigger" to={"/ReproductorCaminos"}>
+                    <Link className="nigger" to="/pagina-ant/ReproductorCaminos">
                         <p className="text-lg text-gray hover:text-zinc">
                             Mirar Teaser
                         </p>

@@ -40,7 +40,7 @@ const YTC1 = () => {
                             Una serie documental que muestra la escena graffiti en Lima a partir de grafiteros influyentes de la escena
                         </h4>
                     </div>
-                    <Link to={"/ReproductorDocumental"}>
+                    <Link to="/pagina-ant/ReproductorDocumental">
                         <p className="nigg text-lg text-gray hover:text-zinc">
                             Mirar Teaser
                         </p>
