@@ -21,7 +21,7 @@ const Bridge = () => {
     })
 
   return (
-        <section className="w-full h-screen bg-yellow overflow-hidden flex items-center px-10">
+        <section className="w-full h-screen bg-yellow-10 overflow-hidden flex items-center px-10">
             <div className="md:flex gap-10">
                 <div className="alpha w-3/5">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
@@ -31,11 +31,11 @@ const Bridge = () => {
                         <h1 className="alpha text-5xl text-zinc">
                             The I Love you Bridge
                         </h1>
-                        <h4 className="alpha text-lg text-gray-600">
+                        <h4 className="alpha text-lg text-[#383B43]">
                             Una pareja de adictos a la heroína se culpan el uno al otro por el suicidio de su amigo.
                         </h4>
                     </div>
-                    <div className="w-32 border-2 border-solid border-gray-500 text-center rounded-3xl hover:border-zinc text-gray-500 hover:text-zinc">
+                    <div className="w-32 border-2 border-solid border-[#383B43] text-center rounded-3xl hover:border-zinc text-[#383B43] hover:text-zinc">
                         <Link className="alpha" to="/pagina-ant/ReproductorLove">
                             <p className="text-lg">
                                 Mirar Teaser
