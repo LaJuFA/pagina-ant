@@ -25,9 +25,9 @@ const Navbar = () => {
 
 
   return (
-    <header className="w-full px-4 sm:px-8 flex justify-between items-center">
-        <nav className={`fixed top-0 left-0 w-full z-20 ${isScrolled ? 'bg-zinc' : 'bg-transparent'} transition duration-300`}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="w-screen px-4 sm:px-8 flex justify-between items-center">
+        <nav className={`fixed top-0 left-0 w-screen z-20 ${isScrolled ? 'bg-zinc' : 'bg-transparent'} transition duration-300`}>
+            <div className="px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <Link to="/pagina-ant/">
