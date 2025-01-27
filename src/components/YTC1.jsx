@@ -7,6 +7,7 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger)
 
 const YTC1 = () => {
+
     useGSAP(() => {
         gsap.fromTo('.fadein', {
             opacity: 0,
@@ -14,7 +15,7 @@ const YTC1 = () => {
             opacity: 1,
             scrollTrigger: {
             trigger: '.fadein',
-            end: 'bottom bottom',
+            end: 'center center',
             scrub: true,
             },
         })
