@@ -44,7 +44,7 @@ const Footer = () => {
         <p>© 2024 Yellow Tapes Studios. Todos los derechos reservados.</p>
         <div>
           <p>Desarrollado por</p>
-          <a href="https://linktr.ee/tealbonfiredevs" target="_blank" rel="noopener noreferrer">Teal Bonfire</a>
+          <a href="https://linktr.ee/tealbonfiredevs" target="_blank" rel="noopener noreferrer" className='hover:text-yellow-500'>Teal Bonfire</a>
         </div>
       </div>
     </footer>

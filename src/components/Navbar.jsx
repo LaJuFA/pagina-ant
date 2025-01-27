@@ -34,6 +34,7 @@ const Navbar = () => {
                             <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
                         </Link>
                     </div>
+                    <p className={`font-helvetica text-sm text-white weight-bold ${isScrolled ? 'visible': 'hidden'} transition`}>Yellow Tapes</p>
                     <div className="hidden md:flex items-center gap-4">
                         <Link to="/pagina-ant/Nosotros">
                             <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
