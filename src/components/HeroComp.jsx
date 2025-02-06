@@ -22,7 +22,7 @@ const HeroComp = () => {
             <video src={currentVideo} className='absolute inset-0 h-full w-full object-cover pointer-events-none'autoPlay muted loop /> 
 
             {/* Contenido superpuesto */}
-            <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-16">
+            <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-8">
                 <h1 className="text-8xl font-bold text-yellow-10 md:text-7xl self-end">
                     Yellow Tapes Studios
                 </h1>

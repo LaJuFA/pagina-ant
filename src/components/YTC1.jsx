@@ -15,14 +15,14 @@ const YTC1 = () => {
             opacity: 1,
             scrollTrigger: {
             trigger: '.fadein',
-            end: 'center center',
+            end: 'bottom bottoma',
             scrub: true,
             },
         })
     })
 
   return (
-        <section className="w-full h-screen bg-zinc overflow-hidden flex items-center px-10">
+        <section className="w-full bg-zinc overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10">
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
                     <div>
