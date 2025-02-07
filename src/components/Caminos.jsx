@@ -9,14 +9,12 @@ gsap.registerPlugin(ScrollTrigger)
 const Caminos = () => {
 
     useGSAP(() => {
-        gsap.fromTo('.nigger', {
+        gsap.fromTo('.fade', {
             opacity: 0,
-            y: 128,
         }, {
             opacity: 1,
-            y: 0,
             scrollTrigger: {
-            trigger: '.nigger',
+            trigger: '.fade',
             end: 'bottom bottom',
             scrub: true,
             },
@@ -24,30 +22,29 @@ const Caminos = () => {
     })
 
     return (
-        <section className="w-full h-screen bg-white overflow-hidden flex items-center px-10">
+        <section className="w-full bg-[#FFF27C] overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10">
-                <div className="nigger w-3/5">
+                <div className="fade w-3/5">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
                 </div>
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
                     <div>
-                        <h4 className="nigger text-md text-gray">
-                            [ 0 1 ]
-                        </h4>
-                        <h1 className="nigger text-4xl text-zinc">
+                        <h1 className="fade text-5xl text-zinc">
                             Todos mis caminos son la destrucción
                         </h1>
-                        <h4 className="nigger text-lg text-gray-600">
+                        <h4 className="fade text-lg text-[#383B43]">
                             Anthony, un joven marcado por su depresión y recuerdos con una chica, busca consuelo en las drogas y los raves. <br/>
                             Su vida da un giro cuando conoce a Kidd Savage, un chico de su edad, pero que vive en la calle. <br/>
                             Juntos recorren la ciudad, dejando atrás sus problemas momentáneamente, mientras que comienzan a cuestionar sus decisiones y reflexionar sobre sus vidas.
                         </h4>
                     </div>
-                    <Link className="nigger" to="/pagina-ant/ReproductorCaminos">
-                        <p className="text-lg text-gray hover:text-zinc">
-                            Mirar Teaser
-                        </p>
-                    </Link>
+                    <div className="w-32 border-2 border-solid border-[#383B43] text-center rounded-3xl hover:border-zinc text-[#383B43] hover:text-zinc">
+                        <Link className="fade" to="/pagina-ant/ReproductorCaminos">
+                            <p className="text-lg">
+                                Mirar Teaser
+                            </p>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </section>

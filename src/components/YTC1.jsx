@@ -7,44 +7,42 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger)
 
 const YTC1 = () => {
+
     useGSAP(() => {
-        gsap.fromTo('.nigg', {
+        gsap.fromTo('.fadein', {
             opacity: 0,
-            y: 128,
         }, {
             opacity: 1,
-            y: 0,
             scrollTrigger: {
-            trigger: '.nigg',
-            end: 'bottom bottom',
+            trigger: '.fadein',
+            end: 'bottom bottoma',
             scrub: true,
             },
         })
     })
 
   return (
-        <section className="w-full h-screen bg-white overflow-hidden flex items-center px-10">
+        <section className="w-full bg-zinc overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10">
-                <div className="nigg w-3/5">
-                    <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
-                </div>
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
                     <div>
-                        <h4 className="nigg text-md text-gray">
-                            [ 0 3 ]
-                        </h4>
-                        <h1 className="nigg text-4xl text-zinc">
+                        <h1 className="fadein text-5xl text-yellow-10">
                             Graffiti Tapes - Lima
                         </h1>
-                        <h4 className="nigg text-lg text-gray-600">
+                        <h4 className="fadein text-lg text-yellow-100">
                             Una serie documental que muestra la escena graffiti en Lima a partir de grafiteros influyentes de la escena
                         </h4>
                     </div>
+                    <div className="w-32 border-2 border-solid border-yellow-100 text-center rounded-3xl hover:border-yellow-10 text-yellow-100 hover:text-yellow-10">
                     <Link to="/pagina-ant/ReproductorDocumental">
-                        <p className="nigg text-lg text-gray hover:text-zinc">
+                        <p className="fadein text-lg">
                             Mirar Teaser
                         </p>
                     </Link>
+                    </div>
+                </div>
+                <div className="fadein w-3/5">
+                    <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
                 </div>
             </div>
         </section>

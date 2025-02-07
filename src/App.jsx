@@ -13,8 +13,8 @@ const App = () => {
       <Navbar />
       <HeroComp />
       <Caminos/>
-      <Bridge/>
       <YTC1/>
+      <Bridge/>
       <Footer/>
     </main>
   )

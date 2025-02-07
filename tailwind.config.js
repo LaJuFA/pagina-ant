@@ -13,6 +13,7 @@ export default {
         blue: "#2997FF",
         yellow: {
           DEFAULT: "#DBD632",
+          10: '#FFFC03',
           50: '#FFFBEB',
           100: '#FEF3C7',
           200: '#FDE68A',
