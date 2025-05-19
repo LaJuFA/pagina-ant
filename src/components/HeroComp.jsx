@@ -23,7 +23,7 @@ const HeroComp = () => {
 
             {/* Contenido superpuesto */}
             <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-8">
-                <h1 className="text-8xl font-bold text-yellow-10 md:text-7xl self-end">
+                <h1 className="font-ducktape text-7xl font-bold text-yellow-10 md:text-5xl self-end">
                     Yellow Tapes Studios
                 </h1>
                 <div className="flex flex-col items-start space-y-4 font-helvetica mt-24">

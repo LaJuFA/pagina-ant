@@ -22,23 +22,23 @@ const Caminos = () => {
     })
 
     return (
-        <section className="w-full bg-[#FFF27C] overflow-hidden flex items-center px-8 py-16">
+        <section className="w-full bg-[#f7f500] overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10">
                 <div className="fade w-3/5">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
                 </div>
                 <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
                     <div>
-                        <h1 className="fade text-5xl text-zinc">
+                        <h1 className="fade text-5xl text-black">
                             Todos mis caminos son la destrucción
                         </h1>
-                        <h4 className="fade text-lg text-[#383B43]">
+                        <h4 className="fade text-lg text-zinc">
                             Anthony, un joven marcado por su depresión y recuerdos con una chica, busca consuelo en las drogas y los raves. <br/>
                             Su vida da un giro cuando conoce a Kidd Savage, un chico de su edad, pero que vive en la calle. <br/>
                             Juntos recorren la ciudad, dejando atrás sus problemas momentáneamente, mientras que comienzan a cuestionar sus decisiones y reflexionar sobre sus vidas.
                         </h4>
                     </div>
-                    <div className="w-32 border-2 border-solid border-[#383B43] text-center rounded-3xl hover:border-zinc text-[#383B43] hover:text-zinc">
+                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-yellow hover:text-black bg-black hover:bg-[#f7f500]">
                         <Link className="fade" to="/pagina-ant/ReproductorCaminos">
                             <p className="text-lg">
                                 Mirar Teaser
