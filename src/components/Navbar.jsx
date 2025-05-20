@@ -22,6 +22,9 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    // constantes para manejar la burger
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = () => setIsOpen(!isOpen);
 
 
   return (
@@ -39,6 +42,20 @@ const Navbar = () => {
                         <Link to="/pagina-ant/Nosotros">
                             <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
                                 Nosotros
+                            </p>
+                        </Link>
+                        <Link to="/pagina-ant/Alquiler">
+                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                                Alquiler
+                            </p>
+                        </Link>
+                        <Link to="/pagina-ant/Proyectos">
+                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                                Proyectos
+                            </p>
+                        </Link><Link to="/pagina-ant/Contacto">
+                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                                Contacto
                             </p>
                         </Link>
                         <FontAwesomeIcon icon={ faEnvelope } onClick={() => copyToClipboard()} className="hover:text-gray"/>

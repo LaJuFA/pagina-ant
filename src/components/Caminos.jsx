@@ -38,7 +38,7 @@ const Caminos = () => {
                             Juntos recorren la ciudad, dejando atrás sus problemas momentáneamente, mientras que comienzan a cuestionar sus decisiones y reflexionar sobre sus vidas.
                         </h4>
                     </div>
-                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-yellow hover:text-black bg-black hover:bg-[#f7f500]">
+                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-yellow text-black hover:text-yellow bg-yellow hover:bg-black">
                         <Link className="fade" to="/pagina-ant/ReproductorCaminos">
                             <p className="text-lg">
                                 Mirar Teaser
