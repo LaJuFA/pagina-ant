@@ -1,4 +1,4 @@
-import {imgUno} from "../assets/alquiler-uno.jpg"
+import imgUno from "../assets/alquiler-uno.jpg"
 
 const SecccionAlquiler = () => {
     return (
