@@ -22,6 +22,15 @@ const Footer = () => {
               <Link to="/pagina-ant/Nosotros">
                 <p className="hover:text-yellow-500">Nosotros</p>
               </Link>
+              <Link to="/pagina-ant/Alquiler">
+                <p className="hover:text-yellow-500">Alquiler</p>
+              </Link>
+              <Link to="/pagina-ant/Proyectos">
+                <p className="hover:text-yellow-500">Proyectos</p>
+              </Link>
+              <Link to="/pagina-ant/Contacto">
+                <p className="hover:text-yellow-500">Contacto</p>
+              </Link>
             </li>
             <li>
               <p className='text-yellow-500 cursor-text select-text'>info@yellowtapes.com</p>
@@ -30,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h2 className="text-lg font-semibold text-gray-100">Síguenos</h2>
+          <h2 className="text-lg font-semibold text-gray-100">¡Nuestras Redes!</h2>
           <div className="mt-4 flex space-x-4">
             <FontAwesomeIcon icon= { faFacebook } className='hover:text-gray'/>
             <FontAwesomeIcon icon= { faInstagram } className="hover:text-gray"/>
