@@ -1,29 +1,78 @@
-import { useState } from "react";
-import imgCaminos from "../assets/caminosCrop.jpg";
-import imgBridge from "../assets/bridgeCrop.jpg";
-import imgDocumental from "../assets/docCrop.jpg";
+import imgCaminos from "../assets/caminos-uno.png"
+import imgBridge from "../assets/bridge-uno.jpeg"
+import imgDocu from "../assets/YTC1-uno.jpeg"
+import { useEffect } from 'react';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
+gsap.registerPlugin(ScrollTrigger);
 
-const SeccionProyectos = () => {
-    const [index,setIndex] = useState(0);
+const SeccionProyectos = () =>{
 
-    const images = [imgCaminos,imgBridge,imgDocumental];
+    useEffect(() => {
+    const sections = document.querySelectorAll('.color-section');
 
-    const handleNext = () => {
-        setIndex((prev) => (prev + 1) % images.length);
+    sections.forEach(section => {
+      const bg = section.dataset.bg;
+      const text = section.dataset.text;
+
+      ScrollTrigger.create({
+        trigger: section,
+        start: 'top center',
+        end: 'bottom center',
+        onEnter: () => applyColors(section, bg, text),
+        onEnterBack: () => applyColors(section, bg, text),
+      });
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };
+  }, []);
 
-    return (
-        <section className="h-screen w-full overflow-hidden bg-zinc common-padding">
-            <div className="flex items-end">
-                <p>Iron Bridge</p>
-                <div className="shrink">
-                    <img key={images[index]} src={images[index]} alt="imagen inicial" className="h-1/2 object-contain"/>
-                </div>
-                <button onClick={handleNext} className="px-4 py-2 bg-cyan-600 text-white rounded hover:bg-cyan-700 transition"></button>
-                
+  const applyColors = (section, bgClass, textClass) => {
+    section.className = `color-section min-h-screen flex items-center justify-between transition-colors duration-300 ${bgClass} ${textClass}`;
+  };
+
+  return (
+    <div className="">
+      <div className="scroll-container">
+        <div
+          className="color-section min-h-screen  transition-colors duration-300 bg-zinc"
+          data-bg="bg-[#2f4858]"
+          data-text="text-white"
+        >
+            <div className="flex items-center justify-between common-padding">
+                <h2 className="text-4xl font-bold">Sección 1</h2>
+                <img src={imgCaminos} className="w-3/5 rounded mt-4" alt="" />
             </div>
-        </section>
-    )
+          
+        </div>
+
+        <div
+          className="color-section min-h-screen  transition-colors duration-300 bg-[#2f4858]"
+          data-bg="bg-[#006f82]"
+          data-text="text-black"
+        >
+            <div className="flex items-center justify-between common-padding">
+                <h2 className="text-4xl font-bold">bridge</h2>
+                <img src={imgBridge} className="w-3/5 rounded mt-4" alt="" />
+            </div>
+          
+        </div>
+
+        <div
+          className="color-section min-h-screen  transition-colors duration-300 bg-[#006f82]"
+          data-bg="bg-[#009891]"
+          data-text="text-gray-900"
+        >
+            <div className="flex items-center justify-between common-padding">
+                <h2 className="text-4xl font-bold">YTC1</h2>
+                <img src={imgDocu} className="w-3/5 mt-4" alt="" />
+            </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 export default SeccionProyectos

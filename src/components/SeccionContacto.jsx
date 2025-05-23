@@ -2,8 +2,8 @@ import imgCam from "../assets/repairCamera.jpg";
 
 const SeccionContacto = () => {
     return (
-        <section className="w-screen overflow-hidden bg-zinc common-padding">
-            <div className="flex justify-center items-center">
+        <section className="w-screen h-screen overflow-hidden bg-zinc common-padding">
+            <div className="flex justify-center items-center border-2 border-yellow rounded p-4">
                 <img src={imgCam} alt="hombre reparando camara" className="max-w-96"/>
                 <div className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-white mx-10"></div>
                 <div className="flex-column">
