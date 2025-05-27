@@ -2,7 +2,7 @@ import Video from "../assets/TMCSLDaudFix.mp4";
 
 const HeroCaminos = () => {
   return (
-    <section className="w-screen h-screen overflow-hidden flex justify-center items-center gap-8 bg-yellow">
+    <section className="w-screen h-screen overflow-hidden flex justify-center items-center gap-8 bg-zinc">
       <div className="w-3/5">
         <video controls>
           <source src={Video} type="video/mp4"/>

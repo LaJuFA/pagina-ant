@@ -10,8 +10,8 @@ const SeccionContacto = () => {
                     <p className="text-yellow md:text-4xl pb-8 font-bold">¡Contactenos!</p>
                     <p className="text-yellow-300 text-small pb-8">Comuniquese con nosotros y le responderemos a la brevedad.</p>
                     <div className="flex justify-between pb-16">
-                        <p>Email: info@yellowtapes.com</p>
-                        <p>Teléfono: 9991234567</p>
+                        <p>Email: anthony@yellowtapes.com</p>
+                        <p>Teléfono: 945298882</p>
                     </div>
                     <p>Lunes a Sábados: 10AM-6PM</p>
                     <p>Domingos: 11AM-5PM</p>

@@ -29,8 +29,13 @@ const YTC1 = () => {
                         <h1 className="fadein text-5xl text-yellow-10">
                             Graffiti Tapes - Lima
                         </h1>
+                        <h3 className="fadein text-md text-white">
+                            año: 2025
+                            duración: 1h 10min
+                            país: Perú, Lima
+                        </h3>
                         <h4 className="fadein text-lg text-white">
-                            Una serie documental que muestra la escena graffiti en Lima a partir de grafiteros influyentes de la escena
+                            Mientras Lima duerme, grafiteros pintan sus calles. Este documental sigue a diferentes personajes dentro de la escena del graffiti ilegal en Lima. Se adentra en sus madrugadas, en sus miedos y en sus impulsos. No busca solo mostrar lo que hacen, sino entender por qué lo hacen. Una mirada cruda y sin filtros al circuito underground donde cada trazo es una declaración, un riesgo, una forma de existir al margen del sistema.
                         </h4>
                     </div>
                     <div className="w-32 border-2 border-solid border-yellow-100 text-center rounded-3xl hover:border-yellow-10 text-yellow-100 hover:text-yellow-10">

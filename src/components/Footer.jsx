@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <h1 className="text-yellow text-2xl font-bold">Yellow Tapes Studios</h1>
           <p className="mt-4 text-sm">
-            Especialistas en la producción de películas, cortos y documentales que cuentan historias únicas.
+            Productora de cine y documental underground.
           </p>
         </div>
 
@@ -33,18 +33,23 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <p className='text-yellow-500 cursor-text select-text'>info@yellowtapes.com</p>
+              <p className='text-yellow-500 cursor-text select-text'>anthony@yellowtapes.com</p>
             </li>
           </ul>
         </div>
 
         <div>
-          <h2 className="text-lg font-semibold text-gray-100">¡Nuestras Redes!</h2>
+          <h2 className="text-lg font-semibold text-gray-100">Sigue nuestro trabajo</h2>
           <div className="mt-4 flex space-x-4">
-            <FontAwesomeIcon icon= { faFacebook } className='hover:text-gray'/>
-            <FontAwesomeIcon icon= { faInstagram } className="hover:text-gray"/>
-            <FontAwesomeIcon icon= { faTwitter } className='hover:text-gray'/>
-            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
+            <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
+              <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
+            </Link>
+            <Link to="https://www.youtube.com/@YellowTapes_YT" target="_blank">
+              <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
+            </Link>
+            <Link to="https://www.tiktok.com/@yellow.tapes" target="_blank">
+              <FontAwesomeIcon icon={ faTiktok } className="hover:text-gray"/>
+            </Link>
           </div>
         </div>
       </div>

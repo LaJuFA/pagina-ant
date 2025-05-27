@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 import iconImg from "../assets/image.svg"
@@ -59,8 +59,16 @@ const Navbar = () => {
                             </p>
                         </Link>
                         <FontAwesomeIcon icon={ faEnvelope } onClick={() => copyToClipboard()} className="hover:text-gray"/>
-                        <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
-                        <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
+                        <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
+                            <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
+                        </Link>
+                        <Link to="https://www.youtube.com/@YellowTapes_YT" target="_blank">
+                            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
+                        </Link>
+                        <Link to="https://www.tiktok.com/@yellow.tapes" target="_blank">
+                            <FontAwesomeIcon icon={ faTiktok } className="hover:text-gray"/>
+                        </Link>
+                        
                     </div>
                 </div>
             </div>
