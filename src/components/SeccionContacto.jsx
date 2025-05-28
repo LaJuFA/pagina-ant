@@ -2,19 +2,32 @@ import imgCam from "../assets/repairCamera.jpg";
 
 const SeccionContacto = () => {
     return (
-        <section className="w-screen h-screen overflow-hidden bg-zinc common-padding">
-            <div className="flex justify-center items-center border-2 border-yellow rounded p-4">
-                <img src={imgCam} alt="hombre reparando camara" className="max-w-96"/>
-                <div className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-white mx-10"></div>
-                <div className="flex-column">
-                    <p className="text-yellow md:text-4xl pb-8 font-bold">¡Contactenos!</p>
-                    <p className="text-yellow-300 text-small pb-8">Comuniquese con nosotros y le responderemos a la brevedad.</p>
-                    <div className="flex justify-between pb-16">
-                        <p>Email: anthony@yellowtapes.com</p>
-                        <p>Teléfono: 945298882</p>
+        <section className="w-screen h-full overflow-hidden bg-zinc common-padding border-b-2">
+            <div className="flex justify-evenly">
+                <div className="w-50% text-end p-[1rem]">
+                    <div className="rounded">
+                        <img src={imgCam} alt="" className="object-contain w-96"/>
                     </div>
-                    <p>Lunes a Sábados: 10AM-6PM</p>
-                    <p>Domingos: 11AM-5PM</p>
+                    <div>
+                        <h1 className="text-6xl font-ducktape py-5">CONTACTO</h1>
+                    </div>
+                </div>
+                <div className="p-[1.5rem] text-white">
+                    <h1 className="text-3xl font-helvetica">Deje un mensaje y le responderemos a la brevedad</h1>
+                    <form action="https://formsubmit.co/anthony@yellowtapes.com" method="POST">
+                        <div className="flex justify-start gap-12 py-4">
+                            <div className="border-2 border-yellow bg-zinc rounded ">
+                                <input type="text" name="name" required placeholder="Nombre completo" className="bg-zinc p-[1rem]"/>
+                            </div>
+                            <div className="border-2 border-yellow bg-none rounded">
+                                <input type="email" name="email" required placeholder="Email" className="bg-zinc p-[1rem]"/>
+                            </div>
+                        </div>
+                        <div className="pb-4 ">
+                            <textarea name="message" required placeholder="Tu mensaje" className="bg-zinc p-[1rem] border-2 border-yellow rounded w-[100%] h-[100%]"></textarea>
+                        </div>
+                        <button type="submit" value="send" className="bg-yellow text-zinc rounded p-[1rem] font-bold">ENVIAR</button>
+                    </form> 
                 </div>
             </div>
         </section>

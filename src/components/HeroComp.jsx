@@ -5,7 +5,7 @@ import heroVid3 from "../assets/documentalAudFix.mp4";
 
 
 const HeroComp = () => {
-    const [currentVideo, setCurrentVideo] = useState(heroVid1);
+    const [currentVideo, setCurrentVideo] = useState(heroVid3);
   
     const videos = {
         heroVid1: heroVid1,
@@ -27,6 +27,10 @@ const HeroComp = () => {
                     Yellow Tapes
                 </h1>
                 <div className="flex flex-col items-start space-y-4 font-helvetica mt-24">
+                    <button onMouseEnter={() => handleHover("heroVid3")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
+                        Graffiti Tapes - Lima  
+                        <p className='text-sm'>2025</p>
+                    </button>
                     <button onMouseEnter={() => handleHover("heroVid1")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
                         Todos mis caminos son la destrucción  
                         <p className='text-sm'>2024</p>
@@ -34,10 +38,6 @@ const HeroComp = () => {
                     <button onMouseEnter={() => handleHover("heroVid2")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
                         The I love you bridge  
                         <p className='text-sm'>2021</p>
-                    </button>
-                    <button onMouseEnter={() => handleHover("heroVid3")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
-                        Graffiti Tapes - Lima  
-                        <p className='text-sm'>2025</p>
                     </button>
                 </div>
             </div>

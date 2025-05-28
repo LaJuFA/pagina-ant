@@ -22,7 +22,7 @@ const Caminos = () => {
     })
 
     return (
-        <section className="w-full bg-[#f7f500] overflow-hidden flex items-center px-8 py-16">
+        <section className="w-full bg-[#fae846] overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10">
                 <div className="fade w-3/5">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
