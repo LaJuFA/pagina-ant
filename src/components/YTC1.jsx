@@ -1,4 +1,4 @@
-import imgUno from "../assets/YTC1-uno.jpeg";
+import imgUno from "../assets/GraffitiEnglish.jpg";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
