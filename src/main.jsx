@@ -7,6 +7,9 @@ import ReproductorCaminos from './components/ReproductorCaminos.jsx'
 import ReproductorLove from './components/ReproductorLove.jsx'
 import ReproductorDocumental from './components/ReproductorDocumental.jsx'
 import Nosotros from './components/Nosotros.jsx'
+import Alquiler from './components/Alquiler.jsx'
+import Contacto from './components/Contacto.jsx'
+import Proyectos from './components/Proyectos.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +31,18 @@ const router = createBrowserRouter([
   {
         path:'/pagina-ant/Nosotros',
         element: <Nosotros/>
+  },
+  {
+        path:'/pagina-ant/Alquiler',
+        element: <Alquiler/>
+  },
+  {
+      path:'/pagina-ant/Contacto',
+      element: <Contacto/>
+  },
+  {
+      path:'/pagina-ant/Proyectos',
+      element: <Proyectos/>
   },
 ]);
 

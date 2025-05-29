@@ -8,11 +8,12 @@ export default {
     extend: {
       fontFamily: {
         helvetica: ['Helvetica', 'sans-serif'],
+        ducktape: ['DuckTape', 'sans-serif'],
       },
       colors: {
         blue: "#2997FF",
         yellow: {
-          DEFAULT: "#DBD632",
+          DEFAULT: "#f7f500",
           10: '#FFFC03',
           50: '#FFFBEB',
           100: '#FEF3C7',

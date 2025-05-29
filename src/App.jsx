@@ -10,8 +10,8 @@ const App = () => {
 
   return (
     <main>
-      <Navbar />
-      <HeroComp />
+      <Navbar/>
+      <HeroComp/>
       <Caminos/>
       <YTC1/>
       <Bridge/>

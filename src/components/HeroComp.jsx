@@ -5,7 +5,7 @@ import heroVid3 from "../assets/documentalAudFix.mp4";
 
 
 const HeroComp = () => {
-    const [currentVideo, setCurrentVideo] = useState(heroVid1);
+    const [currentVideo, setCurrentVideo] = useState(heroVid3);
   
     const videos = {
         heroVid1: heroVid1,
@@ -22,22 +22,22 @@ const HeroComp = () => {
             <video src={currentVideo} className='absolute inset-0 h-full w-full object-cover pointer-events-none'autoPlay muted loop /> 
 
             {/* Contenido superpuesto */}
-            <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-8">
-                <h1 className="text-8xl font-bold text-yellow-10 md:text-7xl self-end">
-                    Yellow Tapes Studios
+            <div className="relative z-10 flex h-full w-full flex-col items-start justify-center bg-black bg-opacity-50 px-20">
+                <h1 className="font-ducktape text-7xl font-bold text-yellow-10 md:text-7xl self-end">
+                    Yellow Tapes
                 </h1>
-                <div className="flex flex-col items-start space-y-4 font-helvetica mt-24">
-                    <button onMouseEnter={() => handleHover("heroVid1")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
+                <div className="flex flex-col items-start space-y-4 font-helvetica mt-24 ">
+                    <button onMouseEnter={() => handleHover("heroVid3")} className="flex gap-2 text-6xl text-white transition hover:text-gray" >
+                        Graffiti Tapes - Lima  
+                        <p className='text-sm'>2025</p>
+                    </button>
+                    <button onMouseEnter={() => handleHover("heroVid1")} className="flex gap-2 text-6xl text-white transition hover:text-gray" >
                         Todos mis caminos son la destrucción  
                         <p className='text-sm'>2024</p>
                     </button>
-                    <button onMouseEnter={() => handleHover("heroVid2")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
+                    <button onMouseEnter={() => handleHover("heroVid2")} className="flex gap-2 text-6xl text-white transition hover:text-gray" >
                         The I love you bridge  
                         <p className='text-sm'>2021</p>
-                    </button>
-                    <button onMouseEnter={() => handleHover("heroVid3")} className="flex gap-2 text-3xl text-white transition hover:text-gray" >
-                        Graffiti Tapes - Lima  
-                        <p className='text-sm'>2025</p>
                     </button>
                 </div>
             </div>

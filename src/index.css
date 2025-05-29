@@ -30,6 +30,13 @@ canvas {
 }
 
 @font-face {
+  font-family: 'DuckTape';
+  src: url('./assets/fonts/DuckTape.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Helvetica';
   src: url('./assets/fonts/HelveticaNeueLight.otf');
   font-weight: normal;
