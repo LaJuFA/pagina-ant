@@ -37,8 +37,7 @@ const Navbar = () => {
                             <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
                         </Link>
                     </div>
-                    <p className={`font-helvetica text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
-                    <div className="hidden md:flex items-center gap-4">
+                    <div className="flex justify-center items-center gap-4">
                         <Link to="/pagina-ant/Nosotros">
                             <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
                                 Nosotros
@@ -49,6 +48,7 @@ const Navbar = () => {
                                 Alquiler
                             </p>
                         </Link>
+                        <p className={`font-helvetica text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
                         <Link to="/pagina-ant/Proyectos">
                             <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
                                 Proyectos
@@ -58,7 +58,10 @@ const Navbar = () => {
                                 Contacto
                             </p>
                         </Link>
-                        <FontAwesomeIcon icon={ faEnvelope } onClick={() => copyToClipboard()} className="hover:text-gray"/>
+                    </div>
+                    <div className="hidden md:flex items-center gap-4">
+                        {/* <FontAwesomeIcon icon={ faEnvelope } onClick={() => copyToClipboard()} className="hover:text-gray"/> */}
+                        
                         <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
                             <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
                         </Link>
