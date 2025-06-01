@@ -1,4 +1,4 @@
-import Video from "../assets/documentalAudFix.mp4";
+import Video from "../assets/graffity.mp4";
 
 const HeroDocumental = () => {
   return (
