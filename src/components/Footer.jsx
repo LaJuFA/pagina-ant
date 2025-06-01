@@ -17,25 +17,21 @@ const Footer = () => {
 
         <div>
           <h2 className="text-lg font-semibold text-gray-100">Enlaces rápidos</h2>
-          <ul className="mt-4 space-y-2">
-            <li>
-              <Link to="/pagina-ant/Nosotros">
-                <p className="hover:text-yellow-500">Nosotros</p>
-              </Link>
-              <Link to="/pagina-ant/Alquiler">
-                <p className="hover:text-yellow-500">Alquiler</p>
-              </Link>
-              <Link to="/pagina-ant/Proyectos">
-                <p className="hover:text-yellow-500">Proyectos</p>
-              </Link>
-              <Link to="/pagina-ant/Contacto">
-                <p className="hover:text-yellow-500">Contacto</p>
-              </Link>
-            </li>
-            <li>
-              <p className='text-yellow-500 cursor-text select-text'>anthony@yellowtapes.com</p>
-            </li>
-          </ul>
+          <div className='flex gap-8 items-center pt-4'>
+            <Link to="/pagina-ant/Nosotros">
+              <p className="hover:text-yellow-500">Nosotros</p>
+            </Link>
+            <Link to="/pagina-ant/Alquiler">
+              <p className="hover:text-yellow-500">Alquiler</p>
+            </Link>
+            <Link to="/pagina-ant/Proyectos">
+              <p className="hover:text-yellow-500">Proyectos</p>
+            </Link>
+            <Link to="/pagina-ant/Contacto">
+              <p className="hover:text-yellow-500">Contacto</p>
+            </Link>  
+          </div>
+          <p className='text-yellow-500 cursor-text select-text'>Anthony@yellowtapes.com</p>
         </div>
 
         <div>
@@ -54,11 +50,13 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex-column items-center justify-center">
+      <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex items-center justify-between px-4 pr-8">
         <p>© 2024 Yellow Tapes Studios. Todos los derechos reservados.</p>
         <div>
           <p>Desarrollado por</p>
-          <a href="https://linktr.ee/tealbonfiredevs" target="_blank" rel="noopener noreferrer" className='hover:text-yellow-500'>Teal Bonfire</a>
+          <Link to="https://linktr.ee/tealbonfiredevs" target='_blank'>
+            <p className='hover:text-yellow-500'>Teal Bonfire</p>
+          </Link>
         </div>
       </div>
     </footer>
