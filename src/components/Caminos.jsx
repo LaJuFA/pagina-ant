@@ -32,16 +32,16 @@ const Caminos = () => {
                         <h1 className="fade text-5xl text-black">
                             Todos mis caminos son la destrucción
                         </h1>
-                        <h3 className="fade text-zinc">
-                            año: 2024
-                            duración: 20min
-                            país: Perú, Lima
-                        </h3>
-                        <h4 className="fade text-lg text-zinc">
+                        <div className="fade text-zinc text-sm">
+                            <p>año: 2024</p>  
+                            <p>duración: 20min</p>
+                            <p>país: Perú, Lima</p>
+                        </div>
+                        <h4 className="fade text-lg text-zinc text-md">
                             Anthony (22), un joven atrapado en los recuerdos con una chica, busca un escape consumiendo drogas y yendo a raves en el centro de Lima. En una de sus salidas nocturnas conoce a KDS (22), un personaje urbano que sobrevive en la calle. Juntos deambulan por la ciudad, construyendo una amistad hablando de grafitis, fumando y hasta robando una tienda. Entre estas experiencias, sus conversaciones los llevan a compartir sus conflictos románticos y a reflexionar sobre ellos. Con sus palabras y vivencias, KDS le hace ver a Anthony que, a pesar de los problemas, la vida sigue y que al final, todo es parte del camino.
                         </h4>
                     </div>
-                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-yellow hover:text-black bg-black hover:bg-yellow">
+                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-[#fae846] hover:text-black bg-black hover:bg-[#fae846]">
                         <Link className="fade" to="/pagina-ant/ReproductorCaminos">
                             <p className="text-lg">
                                 Mirar Teaser

@@ -6,7 +6,7 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc text-gray-300 py-8">
+    <footer className="bg-zinc text-gray-300 py-8 border-t border-gray-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h1 className="text-yellow text-2xl font-bold">Yellow Tapes Studios</h1>
