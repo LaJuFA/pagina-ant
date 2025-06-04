@@ -4,7 +4,7 @@ import imgTres from "../assets/alquiler-tres.jpg"
 
 const SecccionAlquiler = () => {
     return (
-        <section className="w-screen h-full overflow-hidden bg-zinc pt-16 pr-16 pl-16 flex flex-col gap-4">
+        <section className="w-screen h-full overflow-hidden bg-zinc pt-16 pb-16 pr-16 pl-16 flex flex-col gap-4">
             <div className="flex justify-center items-center">
                 <h1 className="text-6xl font-ducktape py-5">Alquiler de equipos</h1>
             </div>
@@ -12,12 +12,12 @@ const SecccionAlquiler = () => {
                 <div className="w-3/5">
                     <img src={imgUno} alt="Equipos para alquilar" className="rounded-xl" />
                 </div>
-                <div className="flex flex-col w-2/5 text-zinc font-oswald font-bold text-[#f7f500] gap-4">
+                <div className="flex flex-col w-2/5 text-zinc font-oswald font-bold gap-4">
                     <div className="border-2 border-[#f7f500] p-4 rounded-xl flex justify-center items-center">
-                        <h2 className="text-2xl">Sony Fx6</h2>
+                        <h2 className="text-2xl text-[#f7f500]">Sony Fx6</h2>
                     </div>
                     <div className="border-2 border-[#f7f500] h-full rounded-xl p-4 text-center">
-                        <h2 className="text-2xl">Sobre el precio de cada equipo</h2>
+                        <h2 className="text-2xl text-[#f7f500]">Sobre el precio de cada equipo</h2>
                         <p className="py-2 text-yellow-100">Para informacion exacta del precio de cada equipo contactarse 
                             por el numero de telefono: +51 945 298 882</p>
                     </div>

@@ -2,7 +2,7 @@ import imgCam from "../assets/repairCamera.jpg";
 
 const SeccionContacto = () => {
     return (
-        <section className="w-screen h-full overflow-hidden bg-zinc border-b pt-16 border-gray-700">
+        <section className="w-screen h-full overflow-hidden bg-zinc pt-16">
             <div className="flex justify-center items-center">
                 <h1 className="text-6xl font-ducktape py-5">CONTACTO</h1>
             </div>

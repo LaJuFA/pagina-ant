@@ -21,7 +21,7 @@ const Bridge = () => {
     })
 
   return (
-        <section className="w-full bg-[#f7f500] overflow-hidden flex items-center px-8 py-16">
+        <section className="w-full bg-[#fae846] overflow-hidden flex items-center px-8 py-16">
             <div className="md:flex gap-10">
                 <div className="alpha w-3/5">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
@@ -35,7 +35,7 @@ const Bridge = () => {
                             Una pareja de adictos a la heroína se culpan el uno al otro por el suicidio de su amigo.
                         </h4>
                     </div>
-                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-yellow hover:text-black bg-black hover:bg-yellow">
+                    <div className="w-32 border-2 border-solid border-black text-center rounded-3xl hover:border-black text-[#fae846] hover:text-black bg-black hover:bg-[#fae846]">
                         <Link className="alpha" to="/pagina-ant/ReproductorLove">
                             <p className="text-lg">
                                 Mirar Teaser
