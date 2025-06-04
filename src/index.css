@@ -30,6 +30,13 @@ canvas {
 }
 
 @font-face {
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'DuckTape';
   src: url('./assets/fonts/DuckTape.ttf');
   font-weight: normal;
