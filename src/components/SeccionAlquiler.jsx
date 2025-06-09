@@ -7,7 +7,7 @@ const SecccionAlquiler = () => {
     return (
         <section className="w-screen h-full overflow-hidden bg-zinc flex flex-col gap-8">
             <div className="text-right pt-16 pr-20">
-                <h1 className="text-2xl text-yellow-10 font-nb">------Alquiler</h1>
+                <h1 className="text-2xl text-yellow-10 font-ducktape">------Alquiler</h1>
             </div>
             <div className="flex justify-evenly font-nb">
                 <div className="border-2 border-yellow-200 rounded-lg p-4 flex flex-col items-center">
@@ -16,7 +16,7 @@ const SecccionAlquiler = () => {
                     <div className="pt-2 flex gap-8">
                         <p className="text-2xl text-yellow-100">Mas info ↓</p>
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/ReproductorDocumental">
+                            <Link to="/pagina-ant/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>
@@ -30,7 +30,7 @@ const SecccionAlquiler = () => {
                     <div className="pt-2 flex gap-8">
                         <p className="text-2xl text-yellow-100">Mas info ↓</p>
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/ReproductorDocumental">
+                            <Link to="/pagina-ant/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>
@@ -44,7 +44,7 @@ const SecccionAlquiler = () => {
                     <div className="pt-2 flex gap-8">
                         <p className="text-2xl text-yellow-100">Mas info ↓</p>
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
-                            <Link to="/pagina-ant/ReproductorDocumental">
+                            <Link to="/pagina-ant/Contacto">
                                 <p className="text-xl">
                                     Cotizar
                                 </p>
