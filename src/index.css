@@ -30,8 +30,8 @@ canvas {
 }
 
 @font-face {
-  font-family: 'Oswald';
-  src: url('./assets/fonts/Oswald-VariableFont_wght.ttf');
+  font-family: 'NB';
+  src: url('./assets/fonts/NB-International-Pro-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }

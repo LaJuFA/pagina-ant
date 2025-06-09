@@ -9,7 +9,7 @@ export default {
       fontFamily: {
         helvetica: ['Helvetica', 'sans-serif'],
         ducktape: ['DuckTape', 'sans-serif'],
-        oswald: ['Oswald', 'sans-serif'],
+        nb: ['NB', 'sans-serif'],
       },
       colors: {
         blue: "#2997FF",
