@@ -1,9 +1,10 @@
-import {useState} from 'react';
+import {useRef, useState} from 'react';
 import heroVid1 from "../assets/TMCSLDaudFix.mp4";
 import heroVid2 from "../assets/LoveYouBridgeAudFix.mp4";
 import heroVid3 from "../assets/graffity.mp4";
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 const HeroComp = () => {
@@ -18,6 +19,10 @@ const HeroComp = () => {
     const handleHover = (videoKey) => {
         setCurrentVideo(videos[videoKey]);
     };
+
+    const scrollDown = () => {
+        window.scrollBy({top:700,left:0,behavior:'smooth'});
+    }
 
     return (
         <div className='relative h-screen w-full overflow-hidden'>
@@ -42,9 +47,9 @@ const HeroComp = () => {
                         <p className='text-sm'>2021</p>
                     </button>
                 </div>
-                <div className='self-center rounded-full border-2 border-white px-[1rem] py-{1.5rem} hover:text-gray hover:border-gray'>
+                <button onClick={scrollDown} className='self-center rounded-full border-2 border-white px-[1rem] py-{1.5rem} hover:text-gray hover:border-gray'>
                     <FontAwesomeIcon icon={faArrowDown}/>
-                </div>
+                </button>
             </div>
         </div>
     )
