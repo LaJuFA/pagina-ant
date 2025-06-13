@@ -37,39 +37,39 @@ const Navbar = () => {
                             <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
                         </Link>
                     </div>
-                    <div className="flex justify-center items-center gap-4">
+                    <div className="flex justify-center items-center gap-4 text-xl font-bold text-center ml-16">
                         <Link to="/pagina-ant/Nosotros">
-                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                            <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Nosotros
                             </p>
                         </Link>
                         <Link to="/pagina-ant/Alquiler">
-                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                            <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Alquiler
                             </p>
                         </Link>
-                        <p className={`font-helvetica text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
+                        <p className={`font-ducktape text-2xl text-yellow-10 font-bold ${isScrolled ? 'visible': 'hidden'} transition duration-500`}>Yellow Tapes</p>
                         <Link to="/pagina-ant/Proyectos">
-                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                            <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Proyectos
                             </p>
                         </Link><Link to="/pagina-ant/Contacto">
-                            <p className="text-white hover:text-gray font-helvetica text-sm hover:underline">
+                            <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Contacto
                             </p>
                         </Link>
                     </div>
-                    <div className="hidden md:flex items-center gap-4">
+                    <div className="flex justify-center items-center gap-4">
                         {/* <FontAwesomeIcon icon={ faEnvelope } onClick={() => copyToClipboard()} className="hover:text-gray"/> */}
                         
                         <Link to= "https://www.instagram.com/yellow_tapes_/" target="_blank">
-                            <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray"/>
+                            <FontAwesomeIcon icon={ faInstagram } className="hover:text-gray h-[1.5rem]"/>
                         </Link>
                         <Link to="https://www.youtube.com/@YellowTapes_YT" target="_blank">
-                            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray"/>
+                            <FontAwesomeIcon icon={ faYoutube } className="hover:text-gray h-[1.5rem]"/>
                         </Link>
                         <Link to="https://www.tiktok.com/@yellow.tapes" target="_blank">
-                            <FontAwesomeIcon icon={ faTiktok } className="hover:text-gray"/>
+                            <FontAwesomeIcon icon={ faTiktok } className="hover:text-gray h-[1.5rem]"/>
                         </Link>
                         
                     </div>
