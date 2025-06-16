@@ -1,7 +1,6 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import HeroNosotros from "./HeroNosotros";
-import SecccionNosotros from "./SecccionNosotros";
 import { useEffect } from "react";
 
 const Nosotros = () => {
@@ -13,7 +12,6 @@ const Nosotros = () => {
     <main>
       <Navbar/>
       <HeroNosotros/>
-      <SecccionNosotros/>
       <Footer/>
     </main>
   )
