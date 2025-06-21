@@ -23,18 +23,18 @@ const YTC1 = () => {
 
   return (
         <section className="w-full bg-zinc overflow-hidden flex items-center px-8 py-16">
-            <div className="md:flex gap-10">
+            <div className="md:flex gap-10 justify-center">
                 <div className="w-2/5 font-helvetica md:flex flex-col items-end justify-between">
-                    <div>
+                    <div className="text-md">
                         <h1 className="fadein text-5xl text-yellow-10">
                             Graffiti Tapes - Lima
                         </h1>
-                        <div className="fadein text-sm text-white">
+                        <div className="fadein text-white">
                             <p>año: 2025</p>  
                             <p>duración: 1h 10min</p>
                             <p>país: Perú, Lima</p>
                         </div>
-                        <h4 className="fadein text-md text-white">
+                        <h4 className="fadein text-white">
                             Mientras Lima duerme, grafiteros pintan sus calles. Este documental sigue a diferentes personajes dentro de la escena del graffiti ilegal en Lima. Se adentra en sus madrugadas, en sus miedos y en sus impulsos. No busca solo mostrar lo que hacen, sino entender por qué lo hacen. Una mirada cruda y sin filtros al circuito underground donde cada trazo es una declaración, un riesgo, una forma de existir al margen del sistema.
                         </h4>
                     </div>
@@ -46,7 +46,7 @@ const YTC1 = () => {
                     </Link>
                     </div>
                 </div>
-                <div className="fadein w-3/5">
+                <div className="fadein w-[50%]">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
                 </div>
             </div>

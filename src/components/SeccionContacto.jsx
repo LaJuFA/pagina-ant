@@ -2,12 +2,8 @@ import imgCam from "../assets/repairCamera.jpg";
 
 const SeccionContacto = () => {
     return (
-        <section className="w-screen h-full overflow-hidden bg-zinc pt-16">
-            <div className="flex justify-center items-center">
-                <h1 className="text-6xl font-ducktape py-5">CONTACTO</h1>
-            </div>
+        <section className="w-screen h-screen overflow-hidden bg-zinc pt-16 flex flex-col justify-center">
             <div className="flex justify-evenly items-center">
-                    
                 <div className="w-50% text-end p-[1rem]">
                     <div className="rounded">
                         <img src={imgCam} alt="" className="object-contain w-[100vh] rounded-3xl"/>
@@ -15,7 +11,7 @@ const SeccionContacto = () => {
                     
                 </div>
                 <div className="p-[1.5rem] text-white">
-                    <h1 className="text-3xl font-helvetica">Deje un mensaje y le responderemos a la brevedad</h1>
+                    <h1 className="text-3xl font-helvetica">Déjanos un mensaje</h1>
                     <form action="https://formsubmit.co/Anthony@yellowtapes.com" method="POST" target="_blank">
                         <div className="flex justify-start gap-12 py-4">
                             <div className="border-2 border-yellow bg-zinc rounded ">

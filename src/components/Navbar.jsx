@@ -37,7 +37,7 @@ const Navbar = () => {
                             <img src={iconImg} alt="Y T logo" className="h-10 w-auto fill-current"/>
                         </Link>
                     </div>
-                    <div className="flex justify-center items-center gap-4 text-xl font-bold text-center ml-16">
+                    <div className="flex justify-center items-center gap-4 text-xl font-helvetica text-center ml-16">
                         <Link to="/pagina-ant/Nosotros">
                             <p className="text-white hover:text-gray font-helvetica hover:underline">
                                 Nosotros

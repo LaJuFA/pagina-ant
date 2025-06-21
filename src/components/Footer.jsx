@@ -6,11 +6,11 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc text-gray-300 py-8 border-t border-gray-700">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-zinc text-gray-300 py-4 border-t border-gray-700">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between gap-16">
         <div>
-          <h1 className="text-yellow text-2xl font-bold">Yellow Tapes Studios</h1>
-          <p className="mt-4 text-sm">
+          <h1 className="text-yellow text-lg font-bold">Yellow Tapes Studios</h1>
+          <p className="mt-4 text-md">
             Productora de cine y documental underground.
           </p>
         </div>
@@ -29,9 +29,10 @@ const Footer = () => {
             </Link>
             <Link to="/pagina-ant/Contacto">
               <p className="hover:text-yellow-500">Contacto</p>
-            </Link>  
+            </Link>
+            <p className='text-yellow-500 cursor-text select-text'>Anthony@yellowtapes.com</p>
           </div>
-          <p className='text-yellow-500 cursor-text select-text'>Anthony@yellowtapes.com</p>
+          
         </div>
 
         <div>
@@ -52,7 +53,7 @@ const Footer = () => {
 
       <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex items-center justify-between px-4 pr-8">
         <p>© 2024 Yellow Tapes Studios. Todos los derechos reservados.</p>
-        <div>
+        <div className='flex gap-1'>
           <p>Desarrollado por</p>
           <Link to="https://linktr.ee/tealbonfiredevs" target='_blank'>
             <p className='hover:text-yellow-500'>Teal Bonfire</p>

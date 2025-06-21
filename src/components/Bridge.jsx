@@ -22,16 +22,16 @@ const Bridge = () => {
 
   return (
         <section className="w-full bg-[#fae846] overflow-hidden flex items-center px-8 py-16">
-            <div className="md:flex gap-10">
-                <div className="alpha w-3/5">
+            <div className="md:flex gap-10 justify-center">
+                <div className="alpha w-[50%]">
                     <img src={imgUno} alt="Escena todos mis caminos" className="rounded-lg shadow-lg" />
                 </div>
-                <div className="w-2/5 font-helvetica md:flex flex-col justify-between">
-                    <div>
-                        <h1 className="alpha text-5xl text-black">
+                <div className="w-2/5 font-helvetica md:flex flex-col justify-between text-black">
+                    <div className="text-md">
+                        <h1 className="alpha text-5xl ">
                             The I Love you Bridge
                         </h1>
-                        <div className="text-zinc text-sm">
+                        <div className="alpha text-zinc text-sm">
                             <p>año: 2022</p>  
                             <p>duración: 6min</p>
                             <p>país: Ucrania</p>

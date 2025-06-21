@@ -10,7 +10,7 @@ const SecccionAlquiler = () => {
             <div className="text-right pt-16 pr-20">
                 <h1 className="text-2xl text-yellow-10 font-ducktape">------Alquiler</h1>
             </div>
-            <div className="bg-yellow-10 text-zinc text-center font-nb p-16">
+            <div className="bg-yellow-10 text-zinc text-center font-nb px-16 py-2">
                 <h1 className="text-6xl">Precio y cantidad de dias de alquiler</h1>
                 <p className="text-2xl pt-4">
                     Todos los datos relacionados al alquiler de alguno de los equipos debe ser
@@ -19,7 +19,7 @@ const SecccionAlquiler = () => {
             </div>
             <div className="flex justify-evenly font-nb">
                 <div className="border-2 border-yellow-200 rounded-lg p-4 flex flex-col items-center">
-                    <img src={imgDos} alt="" className="w-80 rounded-lg"/>
+                    <img src={imgDos} alt="" className="w-[15rem] rounded-lg"/>
                     <h1 className="pt-2 text-4xl text-yellow-10">Mir 37mm F2.8</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
@@ -32,7 +32,7 @@ const SecccionAlquiler = () => {
                     </div>
                 </div>
                 <div className="border-2 border-yellow-200 rounded-lg p-4 flex flex-col items-center">
-                    <img src={imgUno} alt="" className="h-80 w-80 object-cover rounded-lg"/>
+                    <img src={imgUno} alt="" className="w-[15rem] h-[15rem] object-cover rounded-lg"/>
                     <h1 className="pt-2 text-4xl text-yellow-10">Sony Fx6</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
@@ -44,10 +44,8 @@ const SecccionAlquiler = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flex justify-evenly font-nb pb-16">
                 <div className="border-2 border-yellow-200 rounded-lg p-4 flex flex-col items-center">
-                    <img src={imgCuatro} alt="" className="w-80 rounded-lg"/>
+                    <img src={imgCuatro} alt="" className="w-[15rem] rounded-lg"/>
                     <h1 className="pt-2 text-3xl text-yellow-10">MKE 600 Sennheiser</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
@@ -60,7 +58,7 @@ const SecccionAlquiler = () => {
                     </div>
                 </div>
                 <div className="border-2 border-yellow-200 rounded-lg p-4 flex flex-col items-center">
-                    <img src={imgTres} alt="" className="w-80 rounded-lg"/>
+                    <img src={imgTres} alt="" className="w-[15rem] rounded-lg"/>
                     <h1 className="pt-2 text-4xl text-yellow-10">Helios 58mm F2.0</h1>
                     <div className="pt-2 flex gap-8">
                         <div className="w-32 bg-yellow-100 text-zinc text-center rounded-3xl hover:bg-yellow-10">
@@ -72,6 +70,10 @@ const SecccionAlquiler = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-evenly font-nb pb-16">
+                
+                
             </div>
         </section>
     )
