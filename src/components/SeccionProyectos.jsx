@@ -5,8 +5,41 @@ const SeccionProyectos = () =>{
 
   return (
     <section className="h-full w-screen overflow-hidden bg-zinc common-padding">
-      <div className="w-[100%] h-[100%] flex-col justify-center text-white">
-        <div className="h-[100%] flex justify-center gap-10 pb-4">
+      <div className="w-[100%] h-[100%] flex flex-col justify-center text-white gap-10">
+        <div className='card__container'>
+            <article className="card__article">
+              <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
+              <div className="card__data">
+                <span className="card__desc">Producción: 2020</span>
+                <h2 className="card__title">Conociendo Ucrania</h2>
+                <Link></Link>
+              </div>
+            </article>
+            <article className="card__article">
+              <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
+              <div className="card__data">
+                <span className="card__desc">Producción: 2020</span>
+                <h2 className="card__title">Conociendo Ucrania</h2>
+                <Link></Link>
+              </div>
+            </article>
+            <article className="card__article">
+              <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
+              <div className="card__data">
+                <span className="card__desc">Producción: 2020</span>
+                <h2 className="card__title">Conociendo Ucrania</h2>
+                <Link></Link>
+              </div>
+            </article>
+            <article className="card__article">
+              <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
+              <div className="card__data">
+                <span className="card__desc">Producción: 2020</span>
+                <h2 className="card__title">Conociendo Ucrania</h2>
+                <Link></Link>
+              </div>
+            </article>
+          </div>
           <div className='card__container'>
             <article className="card__article">
               <img src={imgPH} alt="Imagen representando un frame de un proyecto" className="card__img"/>
@@ -47,7 +80,6 @@ const SeccionProyectos = () =>{
             <p>Producción: 2020</p>
           </div>
           */}
-        </div>
       </div>
     </section>
   );
