@@ -131,6 +131,11 @@ canvas {
 .card__article {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  border-color: beige;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1rem;
 }
 
 .card__img {
@@ -167,7 +172,7 @@ canvas {
   font-size: large;
   font-weight: 500;
   color: #DBD632;
-  margin-bottom: .75rem;
+  margin-bottom: .25rem;
 }
 
 .card__article:hover .card__data{
@@ -185,15 +190,13 @@ canvas {
 }
 
 .card__article:not(:hover) .card__data{
-  animation: remove-data 1s forwards;
+  animation: remove-data 2.5s forwards;
 }
 
 @keyframes show-data {
-  50%{
-    transform: translateY(-10rem);
-  }
+
   100%{
-    transform: translateY(-7rem);
+    transform: translateY(-10rem);
   }
 }
 
@@ -205,11 +208,9 @@ canvas {
 
 @keyframes remove-data {
   0%{
-    transform: translateY(-7rem);
-  }
-  50%{
     transform: translateY(-10rem);
   }
+  
   100%{
     transform: translateY(.5rem);
   }
