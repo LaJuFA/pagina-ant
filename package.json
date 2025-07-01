@@ -2,7 +2,7 @@
   "name": "pagina-ant",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lajufa.github.io/pagina-ant/",
+  "homepage": "https://yellowtapes.com",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
