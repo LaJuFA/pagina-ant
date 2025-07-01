@@ -44,9 +44,7 @@ const router = createBrowserRouter([
       path:'Proyectos',
       element: <Proyectos/>
   },
-], {
-  basename: "/pagina-ant",
-});
+]);
 
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router}/>
